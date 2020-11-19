@@ -1,3 +1,5 @@
+var arr_size=document.querySelector("#arr_sz");
+var speed=document.querySelector("#speed");
 function swap(el1,el2)
     {
 
@@ -16,7 +18,7 @@ function swap(el1,el2)
     }
 
 
-    async function partition(low,high,delay2=1)
+    async function partition(low,high,delay2=2000/(arr_size.value*speed.value))
 {
   var special = document.querySelectorAll(".special");
   

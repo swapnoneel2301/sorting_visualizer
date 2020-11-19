@@ -18,15 +18,19 @@
 <body>
     
     
-   <h1 class="heading animate__animated animate__animated" > sorting visualizer </h1>
+   <h2 class="heading animate__animated animate__animated" > Sorting visualizer </h2>
 
   <div id="nav-bar">
 	
   	  <button type="button"  id="new" class="btn new">new array</button>
 	  <span class="color">
 		 no of bar
-        <input id="arr_sz" type="range"  min=20 max=150 step=1 value=60>
+        <input id="arr_sz" type="range"  min=20 max=120 step=1 value=60>
 	  </span> 
+	  <span class="color">
+		  Speed
+		  <input type="range" id="speed" min=1 max=5 step=1 value=2>
+	  </span>
 	  <button type="button" class="btn btn-dark merge sort" >Merge sort</button>
 	  <button type="button" class="btn btn-dark quick sort" >Quick sort</button>
 	  <button type="button" class="btn btn-dark insertion sort" >Insertion sort</button>

@@ -1,4 +1,5 @@
-
+var arr_size=document.querySelector("#arr_sz");
+var speed=document.querySelector("#speed");
 
 
 function swap(el1,el2)
@@ -26,7 +27,7 @@ el2.style.height = transform1;
 
     }
 
-async function merge_arr(low,mid,high,delay2=1)
+async function merge_arr(low,mid,high,delay2=3000/(arr_size.value*speed.value))
 {
   var no_of_bar=arr_size.value;
   var i=low,j=mid+1,temp,tempi,tempj;
