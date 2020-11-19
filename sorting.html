@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Sorting visualizer
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="sorting.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    
+    
+   <h1 class="heading animate__animated animate__animated" > sorting visualizer </h1>
+
+  <div id="nav-bar">
+	
+  	  <button type="button"  id="new" class="btn new">new array</button>
+	  <span class="color">
+		 no of bar
+        <input id="arr_sz" type="range"  min=20 max=150 step=1 value=60>
+	  </span> 
+	  <button type="button" class="btn btn-dark merge sort" >Merge sort</button>
+	  <button type="button" class="btn btn-dark quick sort" >Quick sort</button>
+	  <button type="button" class="btn btn-dark insertion sort" >Insertion sort</button>
+	  <button type="button" class="btn btn-dark selection sort" >Selection sort</button>
+	  <button type="button" class="btn btn-dark bubble sort" >Bubble sort</button>
+
+	  <div id="bar"></div>
+	
+   
+<script type="text/javascript" src="sorting_new.js"></script>
+<script type="text/javascript" src="bubble.js"></script>
+<script type="text/javascript" src="selection.js"></script>
+<script type="text/javascript" src="insertion.js"></script>
+<script type="text/javascript" src="quick.js"></script>
+<script type="text/javascript" src="merge.js"></script>
+</body>
+</html>
