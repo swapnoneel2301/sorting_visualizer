@@ -79,12 +79,12 @@ a:hover
 	color: white;
 
 }
-h1{
+h2{
 	margin: 5px auto;
 	text-align: center;
 	color: #05c7d4;
 	/* box-shadow: 0 0 10px #05c7d4, 0 0 40px #05c7d4, 0 0 80px #05c7d4; */
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	text-transform: capitalize;
 
 }

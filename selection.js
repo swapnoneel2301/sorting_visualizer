@@ -1,3 +1,6 @@
+
+var speed = document.querySelector("#speed");
+var arr_size=document.querySelector("#arr_sz");
 function swap(el1,el2)
     {
 
@@ -15,7 +18,7 @@ function swap(el1,el2)
     
     }
 
-    async function selection_sort(delay1=10,delay2=100)
+    async function selection_sort(delay1=3000/(speed.value*arr_size.value),delay2=3000/(speed.value*arr_size.value))
 {
   var special = document.querySelectorAll(".special");
   var no_of_bar=arr_size.value;

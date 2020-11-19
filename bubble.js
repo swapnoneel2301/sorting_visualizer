@@ -1,3 +1,7 @@
+
+var speed=document.querySelector("#speed");
+var arr_size=document.querySelector("#arr_sz");
+
 function swap(el1,el2)
     {
 
@@ -15,11 +19,13 @@ function swap(el1,el2)
     
     }
 
+    
 
 
 
-async function bubble_sort(delay2=1)
+async function bubble_sort(delay2=2000/(arr_size.value*speed.value))
 {
+  console.log(speed.value);
   var special = document.querySelectorAll(".special");
   var no_of_bar=arr_size.value;
     for(var i=0;i<no_of_bar-1;i++)
